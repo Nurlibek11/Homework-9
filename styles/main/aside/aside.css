@@ -1,0 +1,120 @@
+aside {
+  width: 100%;
+  min-height: 560px;
+  background-image: url(../../../images/asidebg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+aside .aside-desc {
+  max-width: 535px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+aside .aside-desc h2 {
+  font-size: 36px;
+  line-height: 47px;
+  color: #D4C17F;
+}
+aside .aside-desc p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+aside form {
+  max-width: 540px;
+  min-height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+aside form input {
+  width: 255px;
+  height: 50px;
+  filter: opacity(10%);
+  border: none;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  color: #BEBEBE;
+}
+aside form button {
+  width: 255px;
+  height: 50px;
+  background-color: #D4C17F;
+  border: none;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+aside .form-desc {
+  width: 255px;
+  height: 28px;
+}
+aside .form-desc p {
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  color: #E7E7E7;
+}
+
+@media (max-width: 780px) {
+  aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  aside form {
+    max-width: 540px;
+    min-height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0px 50px;
+  }
+  aside .aside-desc {
+    max-width: 535px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
+    gap: 35px;
+  }
+}
+@media (max-width: 480px) {
+  aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  aside form {
+    max-width: 540px;
+    min-height: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0px 25px;
+  }
+  aside .aside-desc {
+    max-width: 535px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+    gap: 15px;
+  }
+}/*# sourceMappingURL=aside.css.map */

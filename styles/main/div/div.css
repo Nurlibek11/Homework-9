@@ -1,0 +1,107 @@
+.main-div {
+  max-width: 1100px;
+  min-height: 806px;
+  margin: 120px auto;
+}
+.main-div h2 {
+  color: #D4C17F;
+  font-size: 36px;
+  line-height: 48px;
+  margin-bottom: 100px;
+  text-align: start;
+}
+.main-div .main-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main-div .main-content1 {
+  width: 535px;
+  height: 320px;
+  background-image: url(../../../images/div1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+.main-div .main-content1 h4 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 248px;
+  margin-left: 50px;
+}
+.main-div .main-content2 {
+  width: 535px;
+  height: 320px;
+  background-image: url(../../../images/div2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.main-div .main-content2 h4 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 248px;
+  margin-left: 50px;
+}
+
+@media (max-width: 650px) {
+  .main-div {
+    max-width: 1100px;
+    min-height: 806px;
+    margin: 120px auto;
+  }
+  .main-div h2 {
+    color: #D4C17F;
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 60px;
+    text-align: start;
+  }
+  .main-div .main-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .main-div .main-content1 {
+    width: 360px;
+    height: 250px;
+    background-image: url(../../../images/div1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+  }
+  .main-div .main-content1 h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 188px;
+    margin-left: 30px;
+  }
+  .main-div .main-content2 {
+    width: 360px;
+    height: 250px;
+    background-image: url(../../../images/div2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  .main-div .main-content2 h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 188px;
+    margin-left: 30px;
+  }
+}/*# sourceMappingURL=div.css.map */

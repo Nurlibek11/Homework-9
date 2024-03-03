@@ -1,0 +1,120 @@
+footer {
+  width: 100%;
+  min-height: 300px;
+  background-color: #2D343C;
+  display: flex;
+  align-items: center;
+}
+footer .footer1 {
+  max-width: 134px;
+  min-height: 66px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+footer .footer1 p {
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  letter-spacing: 12%;
+}
+footer .footer1 h5 {
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 53px;
+}
+footer .footer2 {
+  max-width: 189px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+footer .footer2 p {
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+  letter-spacing: 12%;
+}
+footer .footer2-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .footer2-icons span {
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+@media (max-width: 1200px) {
+  footer {
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 780px) {
+  footer {
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 150px;
+  }
+  footer .footer1 {
+    max-width: 134px;
+    min-height: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+  }
+  footer .footer1 p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    letter-spacing: 12%;
+  }
+  footer .footer1 h5 {
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 53px;
+  }
+}
+@media (max-width: 480px) {
+  footer {
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 150px;
+  }
+  footer .footer1 {
+    max-width: 134px;
+    min-height: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+  }
+  footer .footer1 p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    letter-spacing: 12%;
+  }
+  footer .footer1 h5 {
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 53px;
+  }
+}/*# sourceMappingURL=footer.css.map */

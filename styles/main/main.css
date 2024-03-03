@@ -1,0 +1,11 @@
+@import url(./article/article.css);
+@import url(./aside/aside.css);
+@import url(./section/section.css);
+@import url(./div/div.css);
+@import url(./maps/maps.css);
+@import url(./main-foot/main-foot.css);
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #242B33;
+}/*# sourceMappingURL=main.css.map */
